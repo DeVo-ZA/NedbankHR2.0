@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144809724945",
+    "project_id": "nedbankhr",
+    "storage_bucket": "nedbankhr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144809724945:android:9898e6c9edb9cbde96b5b0",
+        "android_client_info": {
+          "package_name": "com.company.nedbankhr20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144809724945-3g8d3sumur94kssherc0mar88il4d4p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWvbzRxFXndMwYd0gor7M5CmcVCU-At3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144809724945-3g8d3sumur94kssherc0mar88il4d4p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

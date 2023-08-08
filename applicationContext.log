@@ -1,0 +1,17 @@
+   ______________________________
+ / \                             \.
+|   | This log file was created  |.
+ \_ | by the Wizard, it contains |.
+    | the configuration data     |.
+    | used for the application   |.
+    | generation.                |.
+    |                            |.
+    | It shouldn't be edited     |.
+    | manually, changing it      |.
+    | won't affect the generated |.
+    | sample.                    |.
+    |   _________________________|___
+    |  /                            /.
+    \_/____________________________/.
+
+{"projectName":"NedbankHR2.0","projectLocation":"C:\\Users\\donov\\AndroidStudioProjects\\NedbankHR2.0","projectNamespace":"com.company.nedbankhr20","accountName":"MobileService","serviceURL":"https://trial-f7vned9y-devspace-demo-instance.cfapps.ap21.hana.ondemand.com/","serverURL":"https://mobile-service-cockpit-web.cfapps.ap21.hana.ondemand.com/cockpit/v1/org/a691f273-9029-45e0-ad70-da65bfc01203/space/42af61e0-0fe9-432d-997a-883c3fb9ea23/","applicationID":"demo_instance","applicationSecurityConfig":"SAML","jsonPath":"C:\\Users\\donov\\Downloads\\google-services (5).json","senderID":null,"serverKey":null,"isLogEnabled":false,"isLogUploadEnabled":false,"SAPSDKLocation":"MAVEN_LOCAL","activationType":"appConfigFile","generateJavaCode":false,"generateOnlineApp":true,"isUsageIncluded":false,"isCrashReportIncluded":false,"isMultipleUserMode":false}

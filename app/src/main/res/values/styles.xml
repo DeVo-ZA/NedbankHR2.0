@@ -1,0 +1,121 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="FioriTheme.Onboarding">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">#F5F5F5</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlNormal">#F5F5F5</item>
+
+        <!-- Sign In screen avatar background -->
+        <item name="onboarding_avatar_background">@color/colorPrimary</item>
+
+        <item name="onboarding_passcode_rule_checker_label_style_ref">@color/colorPrimary</item>
+
+        <item name="onboarding_avatar_text_color">@color/onboarding_avatar_text_color</item>
+
+
+        <!-- onboarding flat button -->
+        <item name="onboarding_button_flat_ref">@style/Widget.Onboarding.Button.Borderless</item>
+        <item name="onboarding_button_flat_text">@color/sap_ui_flat_button_text_color</item>
+        <item name="onboarding_button_flat_text_disabled">
+            @color/onboarding_button_flat_text_disabled
+        </item>
+        <item name="onboarding_button_flat_background">
+            @color/onboarding_button_flat_background
+        </item>
+
+        <!-- onboarding raised button -->
+        <item name="onboarding_button_raised_ref">@style/Widget.Onboarding.Button.Borderless</item>
+        <item name="onboarding_button_raised_background_pressed">@color/onboarding_button_raised_background_pressed</item>
+        <item name="onboarding_button_raised_background_disabled">@color/onboarding_button_raised_background_disabled</item>
+        <item name="onboarding_button_raised_background">@color/onboarding_button_raised_background</item>
+
+        <!-- SimplePropertyFormCell -->
+        <item name="onboarding_simple_property_focused_ref">
+            @style/Onboarding.SimplePropertyFormCell.Focused
+        </item>
+        <item name="onboarding_simple_property_focused_text_color">@color/onboarding_formcell_text</item>
+        <item name="onboarding_simple_property_unfocused_ref">
+            @style/Onboarding.SimplePropertyFormCell.Unfocused
+        </item>
+        <item name="onboarding_simple_property_unfocused_text_color">@color/onboarding_base_text</item>
+
+        <!-- Consent screen toolbar button -->
+        <item name="onboarding_consent_screen_toolbar_close_button_color">@color/colorPrimary</item>
+
+        <!-- Passcode rule checker -->
+        <item name="onboarding_passcode_rule_checker_pass_color">@color/colorAccent</item>
+        <item name="onboarding_passcode_rule_checker_not_pass_color">@color/red</item>
+
+        <!-- Top border only toolbar for the Passcode/EULA screens -->
+        <!-- Usually this color is similar to the background of the screen -->
+        <item name="onboarding_toolbar_divider_color">@color/onboarding_top_border_only_toolbar</item>
+    </style>
+
+    <style name="OnboardingLogo">
+        <!-- The value is always @drawable/<your_logo_name_without_ext> -->
+        <!-- Do not add the file extension e.g. .png -->
+        <item name="android:src">@drawable/wide_logo</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="CustomIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/colorAccent</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="FioriTheme.AppBarOverlay" />
+
+    <style name="AppTheme.PopupOverlay" parent="FioriTheme.PopupOverlay">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="colorSurface">@color/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_centered</item>
+    </style>
+
+    <style name="ContextActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="TestObjectCell" parent="ObjectCell">
+        <item name="headlineTextAppearance">@style/Test.ObjectCell.Headline</item>
+    </style>
+
+    <style name="Test.ObjectCell.Headline" parent="TextAppearance.Fiori.ObjectCell.Headline">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="OnboardingDefaultTheme.Dialog.Alert" >
+        <item name="android:maxLines">8</item>
+        <item name="android:colorBackground">@color/onboarding_default_background</item>
+        <item name="android:elevation">15dp</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+</resources>

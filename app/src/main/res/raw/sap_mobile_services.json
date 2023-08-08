@@ -1,0 +1,12 @@
+{
+  "__comment": "When modifying this file, you need to reset or reinstall all current client installations",
+  "auth": [{
+        "type": "saml2.web.post",
+        "config": {
+        },
+        "requireOtp": false
+  }],
+  "ServiceUrl" : "https://trial-f7vned9y-devspace-demo-instance.cfapps.ap21.hana.ondemand.com/",
+  "appID": "demo_instance",
+  "multiUser": false
+}

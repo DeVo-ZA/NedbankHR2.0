@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selected_item">@color/sap_ui_list_picker_select</color>
+    <color name="default_item">@color/sap_ui_background_color</color>
+    <color name="active_item">@color/sap_ui_content_non_interactive_icon_color</color>
+    <color name="colorPrimary">#005941</color>
+    <color name="text">#333</color>
+    <color name="colorAccent">#019349</color>
+    <color name="colorPrimaryDark">#023C16</color>
+    <color name="red">#FF0000</color>
+    <color name="grey_300">#e0e0e0</color>
+    <!-- SimplePropertyFormCell active value border -->
+    <color name="sap_ui_field_active_border_color">@color/colorPrimaryDark</color>
+    <!-- Avatar background -->
+    <color name="onboarding_avatar_background">@color/colorPrimary</color>
+
+    <color name="onboarding_default_background">#F6F6F6</color>
+    <!-- The border color of the bottom action bar on the Passcode/EULA screens -->
+    <color name="onboarding_top_border_only_toolbar">#F5F5F5</color>
+
+    <color name="onboarding_button_raised_background_pressed">@color/colorAccent</color>
+
+    <color name="onboarding_button_raised_background_disabled">@color/colorPrimary</color>
+
+    <color name="onboarding_button_flat_text_disabled">@color/colorPrimary</color>
+
+    <color name="onboarding_button_raised_background">@color/colorPrimary</color>
+
+    <color name="sap_ui_flat_button_text_color">@color/colorAccent</color>
+
+    <color name="onboarding_formcell_text">@color/colorAccent</color>
+
+    <color name="onboarding_base_text">@color/colorAccent</color>
+
+    <color name="sap_ui_button_text_color">#005941</color>
+
+    <color name="onboarding_edittext_line">#019349</color>
+
+    <color name="sap_ui_base_text">#e0e0e0</color>
+
+    <color name="actionMenuTextColor">#e0e0e0</color>
+
+    <color name="onboarding_avatar_text_color">#FFFFFF</color>
+
+    <color name="colorControlNormal">#F5F5F5</color>
+</resources>

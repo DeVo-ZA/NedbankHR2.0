@@ -1,0 +1,16 @@
+{
+  "projectInfo": {
+    "projectName": "NedbankHR2.0",
+    "createdDate": "Saturday, July 15, 2023 at 7:56:29 PM",
+    "regenerateProxyClassDate": ""
+  },
+  "cloudApplication": {
+    "cloudApplicationId": "demo_instance",
+    "destinations": [
+      {
+        "id": "com.sap.edm.sampleservice.v2"
+      }
+    ]
+  },
+  "msServerConfigurationName": "MobileService"
+}
